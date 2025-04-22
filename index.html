@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanu Kumar – AI & Web Strategist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      height: 100vh;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      border: 3px solid #eee;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0.3rem 0;
+    }
+    header p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    a.button {
+      margin-top: 1.5rem;
+      background-color: #000;
+      color: #fff;
+      padding: 0.7rem 1.3rem;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+      background: #fafafa;
+    }
+    .social a {
+      margin: 0 10px;
+      font-size: 1.2rem;
+      color: #555;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 0.8rem;
+      background: #222;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.pravatar.cc/150?img=32" alt="Sanu Kumar">
+    <h1>Sanu Kumar</h1>
+    <p>Helping businesses grow with AI-powered solutions, digital strategies, and no-fluff execution.</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/sanu-k/" target="_blank">LinkedIn</a> |
+      <a href="mailto:sanu.kumar@vovance.com">Email</a>
+    </div>
+    <a href="#services" class="button">Explore My Services</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a strategist who thrives on solving complex problems through technology, AI, and design. From working with local businesses to growing enterprise teams, I bring digital transformation wherever I go.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>AI Consulting</h3>
+        <p>Implement AI tools to automate and scale your business—from chatbots to intelligent workflows.</p>
+      </div>
+      <div class="card">
+        <h3>Website Development</h3>
+        <p>Build modern, fast, and responsive websites tailored for local businesses, personal brands, or startups.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Marketing</h3>
+        <p>SEO, social media, and performance-driven campaigns designed to grow visibility and revenue.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>DigitalClimbUp</h3>
+        <p>Website solution for local shops to grow their business online.</p>
+      </div>
+      <div class="card">
+        <h3>Ambli AI</h3>
+        <p>AI-driven insights platform for marketing and automation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Sanu Kumar. All rights reserved.
+  </footer>
+
+</body>
+</html>
